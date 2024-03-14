@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: white;
+}
+
+h1{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    padding-bottom: 3px;
+}
+
+h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+h3{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 32px; 
+}
+
+/*All header*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 150px 14px 150px;
+}
+
+.header-img {
+    width: 62px;
+    height: 62px;
+}
+
+.header-nevgation {
+    display: flex;
+    gap: 150px;
+}
+
+.header-nevgation-menu {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;    
+}
+
+.rec {
+    width: 100;
+    height: 30px;
+    background-color: black;
+}
+/*All footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 150px 14px 150px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*Page 1(home) - Section1 - Pet lover adoption home*/
+.home-section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 150px 14px 150px;
+}
+
+.home-call {
+    background-color: orange;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+.home-section1-image {
+    width: 470px;
+    height: 365px;
+}
+
+/*Page 1(home) - Section2 - information*/
+.home-section2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 14px 150px 14px 150px;
+}
+
+.home-section2-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-section2-colum {
+    flex: 1;
+    padding: 20px;
+}
+
+/*Page 1(home) - Section3 - adoption hisoty*/
+.home-section3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px 250px 14px 250px;
+}
+
+.home-section3-container-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: justify;
+}
+
+.home-section3-container-colum-image {
+    width: 200px;
+    height: 300px;
+}
+
+/*Page 1(home) - Section4 - friends of pet lovers*/
+.home-section4 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    background-color: #D9D9D9;
+    padding: 14px 150px 14px 150px;
+}
+
+/*Page 1(home) - Section5 - contacts and newslatter*/
+.home-section5 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 14px 250px 14px 250px;
+}
+
+.home-section5-colum-check {
+    font-size: 10px;
+}
+
+.button {
+    width: 60px;
+    height: 30px;
+}
+
+/*Contacts*/
+.home-section5-colum-title {
+    padding-left: 600px;
+}
+
+table {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px 36px;
+}
+
+
+th{
+	padding: 10px;
+	margin: 2px;
+    color: black;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+}
+
+td{
+	padding: 10px;
+	margin: 2px;
+    color: black;
+    border: 1px solid black;
+}
+
+/*Newslatter*/
+.home-section5-colum-forms {
+    background-color: #D9D9D9;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/*Page 2(pets) - Section1 and 2*/
+.pets-section {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px 300px 14px 400px;
+}
+
+.pets-section1-pet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px 20px 0;    
+}
+
+.pets-section1-pet-img {
+    width: 200px;
+}
+
+.pets-section1-pet-text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #D9D9D9;
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+/*Page 3(forms) - Section1 and 2*/
+.form-main {
+    background-image: url('../images/bacground.png');
+}
+
+.form-section1 {
+    text-align: center;
+}
+
+.form-section2 {
+    background-color: #D9D9D9;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    margin: 14px 200px 14px 550px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style:oblique;
+    
+}
+
+.buttonimg{
+    width: 40px;
+    
+}
+
+
+

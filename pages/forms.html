@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pet lovers - Forms</title>
+</head>
+<body>
+    <!--Top page-->
+    <header>
+        <!--Logo Icon-->
+        <img class="header-img" src="../images/icon.png" alt="Logo of Pet Lovers">
+        <!--Nvegation menu-->
+        <nav class="header-nevgation">
+        <a class="header-nevgation-menu" href="../Index.html">Home</a>
+        <a class="header-nevgation-menu" href="pets.html">Pets</a>
+        <a class="header-nevgation-menu" href="forms.html">Forms</a>
+        </nav>
+    </header>
+
+    <!--Midle page-->
+    <main class="form-main">
+        <div class="rec"></div>
+        <section class="form-section">
+            <!--Title-->
+            <h1 class="form-section1">Pet Lovers Adoption Forms</h1>
+        
+            <!--Forms-->
+            <form class="form-section2">
+                Your name<br>
+                <input type="text" name="name" id="name" maxlength="20" minlength ="3" size="40" placeholder="enter your name" required><br>
+                Your surname<br>
+                <input type="text" name="surname" id="surname" maxlength="30" size="40" placeholder="enter your surname" required><br>
+                Your email<br>
+                <input type="email" name="eamil" id="eamil" maxlength="30" size="40" placeholder="enter your name" required><br>
+                Phone number<br>
+                <input type="text" name="number" maxlength="10" size="40" placeholder="enter your number" required><br>
+                How would you like us contact you?<br>
+                <input type="radio" name="contact" value="phone"/>Phone
+                <input type="radio" name="contact" value="eamil"/>E-mail
+                <input type="radio" name="contact" value="whatsapp"/>Whatsapp<br>
+                Your desire pet<br>
+                <select>
+                    <option>Dog</option>
+                    <option>Cat</option>
+                    <option>Small animal</option>
+                    <option>Bird</option>
+                </select><br>
+                Do you want to leave any additional cooment?<br>
+                <textarea rows="5" cols="40"></textarea><br>
+
+                <input type="checkbox" name="terms" value="agree" required/>I Agree to your terms<br>
+		        <input type="checkbox" name="terms" value="newslatter"/>I want to subscribe to your mothy newsletter<br>
+                
+                Submit here 
+                <button type="submit">
+                    <img class="buttonimg" src="../images/icon.png" alt="enviar"> 
+                </button> 
+            </form>
+        </section>
+        
+    </main>
+    <div class="rec"></div>
+    <!--Bottom page-->
+    <footer>
+        <p>Instagram: PetLovers</p>
+        <p>E-mail: contact@petlover.com</p>
+        <p>Adress: 32 Telgrove Lown, Shapnit, Dublin 7, Dublin</p>
+    
+    </footer>
+
+    
+
+</body>
+</html>
